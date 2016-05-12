@@ -8,9 +8,6 @@ var remember = require('gulp-remember');
 var autoprefixer = require('gulp-autoprefixer');
 var csso = require('gulp-csso');
 var concat = require('gulp-concat');
-
-
-
 var gulpif = require('gulp-if');
 var imagemin = require('gulp-imagemin');
 var spritesmith = require('gulp.spritesmith');
@@ -25,6 +22,8 @@ var postcss = require('gulp-postcss');
 var reporter    = require('postcss-reporter');
 var syntax_less = require('postcss-less');
 var plato = require('plato');
+
+console.log("Lena");
 
 var browserify = require('browserify');
 
