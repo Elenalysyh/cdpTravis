@@ -23,7 +23,7 @@ var reporter    = require('postcss-reporter');
 var syntax_less = require('postcss-less');
 var plato = require('plato');
 
-console.log("Lena");
+console.log("Lena dsaf ");
 
 var browserify = require('browserify');
 
