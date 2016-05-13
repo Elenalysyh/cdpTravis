@@ -154,16 +154,11 @@ gulp.task('lint-styles', function() {
         ], {syntax: syntax_less}));
 });
 
-
 gulp.task('plato', function () {
     return plato.inspect(conf.js, conf.report, {}, function () {
         console.log("Report was built");
     });
 });
-
-console.log("Some");
-
-
 
 function errorHandler(error) {
     util.log(util.colors.red('Error'), error.message);
