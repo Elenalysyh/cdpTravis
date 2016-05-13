@@ -7,6 +7,8 @@ branches:
     - deploy
 deploy:
   provider: heroku
+  on: deploy
+  skip_cleanup: true
   api_key:
     secure: "DppKEuXq4OpzmsC/p34jYZl9NW9gMbPK4EQNCiE5Lh8FyFZut2lYitePe6/TPmrYevO2Fmj6L8YWyGpoIiw3SOupP8FwUvBzHnPG+HyO6wKx18CHbTONAKEtbUZ8PLHlp2IR3egaAzOLVZDjDTVixsniiHTtwd3xd1zfJ0o5VGpNwVWI5ceTI13W9g+60jcTJvASKBoW10wRLTCN108PxU2myX0pnjCkJYRFFenrlCxJFxJbL7WGdIzcyfMBMoSuEuEyjINdEFCH4TX9jB+bXkwyB1Z0bzkF7tLNU88vn7KEXCT7Nfgr+3wftYOpZbSWhv8V9u/IIOg2OAg1ii645TwoFuEOS7bJSR0xW36bZ3c6GGUFM4yWFv4L7hCwmZW+6XYRkTEi7pZyFLJ7+x+VfsnYOSLeIWNgMbm1KicLKRTGate+kacHqA29565c4ljAG4/vgr9qHZYc3NcJHPJnk8k8JyOFQjBf9HMtIt8w1/ZkMq7MsLZI6AZZ2+eg0/rm1NIrxq6UJKkK2AoC7s5dGW4dWshSW4AW5pKk0pk9PAhaAcV55APuUJWfqy8N7hK+Kn4jsfeSNMMXp+vQ6wyuHruuf4p25AG5z6H+pMZF60Ktsx/ORhwdX2ORZ8a3KgaQu1jZuLFKbmJdHSrZA/cl6d9RnC1LhES7E/t/hzF94ic="
   app: testheroke
