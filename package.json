@@ -7,7 +7,7 @@
     "build:prod": "gulp build --env=production",
     "watch": "gulp watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server build -p ${PORT}"
+    "start": "http-server build -p ${PORT} -o http://testheroke.herokuapp.com/html/"
   },
   "repository": {
     "type": "git",
